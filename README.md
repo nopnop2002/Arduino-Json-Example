@@ -2,7 +2,7 @@
 Example to handle Arrays with ArduinoJson.   
 ArduinoJson is [here](https://github.com/bblanchon/ArduinoJson)
 
-# Purpose
+# Purpose:
 I want to parse these JSON string using ArduinoJson.   
 
 ```
@@ -29,7 +29,7 @@ I want to parse these JSON string using ArduinoJson.
 ]
 ```
 
-# Result
+# Result:
 ```
 input=
 [
