@@ -1,5 +1,5 @@
 # ArduinoJson_Example
-Example code for ArduinoJson
+Example to handle Arrays with ArduinoJson.
 
 # Purpose
 I want to parse these JSON string using ArduinoJson.   
