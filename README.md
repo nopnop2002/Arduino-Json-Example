@@ -1,5 +1,5 @@
 # ArduinoJson_Example
-Example to handle Arrays with ArduinoJson.
+Example to handle Arrays with ArduinoJson.   
 ArduinoJson is [here](https://github.com/bblanchon/ArduinoJson)
 
 # Purpose
