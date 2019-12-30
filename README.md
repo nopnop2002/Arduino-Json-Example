@@ -70,3 +70,41 @@ val_data.size()=2
 data[0]=1.11
 data[1]=2.22
 ```
+
+---
+
+# Purpose:
+I want to parse these JSON string using ArduinoJson.   
+
+```
+{"records":
+  [
+    {"id":1,"user_id":1,"category_id":1,"content":"blog started"},
+    {"id":2,"user_id":1,"category_id":2,"content":"It works!"}
+  ]
+}```
+
+# Result:
+```
+input=
+{"records":
+  [
+    {"id":1,"user_id":1,"category_id":1,"content":"blog started"},
+    {"id":2,"user_id":1,"category_id":2,"content":"It works!"}
+  ]
+}
+
+array.size()=2
+id=1
+user_id=1
+category_id=1
+content=blog started
+
+id=2
+user_id=1
+category_id=2
+content=It works!
+
+```
+
+
