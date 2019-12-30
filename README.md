@@ -54,7 +54,6 @@ input=
   }
 ]
 
-measureJson=135
 array.size()=2
 id=1
 title=Hello World!
@@ -63,6 +62,7 @@ val_data.size()=3
 data[0]=1.00
 data[1]=2.00
 data[2]=3.00
+
 id=2
 title=Hello Japan!
 time=1351824240

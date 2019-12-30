@@ -53,9 +53,10 @@ int parseJSON(String input) {
     return 0;
   }   
       
+#if 0
   Serial.print("measureJson=");
   Serial.println(measureJson(doc));
-
+#endif
   
   JsonObject root = doc.as<JsonObject>();
 
@@ -69,6 +70,7 @@ int parseJSON(String input) {
     for(int i=0; i<array.size(); i++) {
       JsonVariant variant = array[i];
       parseVariant(variant);
+      Serial.println();
     }
   }
   return measureJson(doc);
